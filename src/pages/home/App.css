@@ -1,0 +1,14 @@
+
+.body {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  font-size: larger;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 500px;
+}
+

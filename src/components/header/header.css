@@ -1,0 +1,54 @@
+
+.logo {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.header-title {
+    font-size: 35px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.header-title:hover {
+    opacity: 0.8;
+}
+
+.header-list {
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.header-list:hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    background: linear-gradient(90deg, #080027 1.18%, #280747 100%);
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .header {
+        height: 330px;
+        display: block;
+    }
+}
+
