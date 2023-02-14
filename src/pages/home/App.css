@@ -1,14 +1,74 @@
 
 .body {
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(55, 53, 53);
   color: white;
   font-size: larger;
+  height: 2020px;
+}
+
+.background, .background2 {
+  opacity: 0.15;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.background2 {
+  top: 884px;
 }
 
 section {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 500px;
+  min-height: 600px;
 }
+
+.hidden {
+  opacity: 0.1;
+  transition: all 1.5s;
+}
+
+.show {
+  opacity: 1;
+  font-size: 27px;
+}
+
+.pics {
+  display: flex;
+}
+
+.pic {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+}
+
+.text {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.box {
+  width: 325px;
+  animation: typing 3s steps(39), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 20px;
+}
+
+@keyframes typing {
+  from{
+    width: 0;
+  }
+}
+@keyframes blink {
+  50%{
+    border-color: transparent;
+  }
+}
+
+
+
 
