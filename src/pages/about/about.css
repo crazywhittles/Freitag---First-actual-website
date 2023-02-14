@@ -1,3 +1,69 @@
-body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.body2 {
+    background-color: rgb(55, 53, 53);
+    color: white;
+    font-size: larger;
+    height: 1255px;
+}
+
+.background2 {
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.main2 {
+    margin-top: 50px;
+    width: 50%;
+    display: inline-block;
+}
+
+.title {
+    font-size: 50px;
+    width: 100px;
+    font-weight: 700;
+    margin-left: 50%;
+    margin-top: 0;
+}
+
+.title-cr {
+    color: yellow;
+}
+
+.quote {
+    margin-right: 60px;
+}
+
+.about-text,
+.about-text-animate {
+    width: 70%;
+    font-weight: 600;
+    margin-left: 15%;
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+.about-text-animate {
+    width: 555px;
+    animation: typing 3s steps(50), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.screenshot {
+    width: 500px;
+    margin-left: 25%;
+    margin-top: 20px;
+    position: relative;
 }

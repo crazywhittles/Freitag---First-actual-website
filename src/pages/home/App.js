@@ -27,13 +27,12 @@ function App() {
       src="https://cdn.mos.cms.futurecdn.net/xDUwiksyoEipsi4jrjWrnA.jpg"
       alt="cover">
       </img>
-      <br />
       <img 
-      className='background2'
+      className='secondbackground'
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/What%27s_Up_in_the_Solar_System%2C_active_space_probes_2019-07.png/1200px-What%27s_Up_in_the_Solar_System%2C_active_space_probes_2019-07.png"
       alt="cover">
       </img>
-      <section>
+      <section className='home-section'>
           <h1>Welcome</h1>
           <p className='text'>
             Hello this is my disgusting website, including lots of fun stuff. Here you 
@@ -45,7 +44,7 @@ function App() {
             i do not have a clue what i am doing
           </p>
       </section>
-      <section ref={myRef} className='hidden'>
+      <section ref={myRef} className='hidden home-section'>
         <h1>I need Help...</h1>
         <p>Can someone help me decide which AWP I should get for CSGO</p>
         <div className='pics'>
