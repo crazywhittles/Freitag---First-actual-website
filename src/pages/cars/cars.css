@@ -1,0 +1,68 @@
+.car-body {
+    color: white;
+    font-size: larger;
+    background-color: black;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.car-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.car-background,
+.car-background2 {
+    position: absolute;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-40px) scale(5.5);
+}
+
+.car-background2 {
+    top: 550vh;
+}
+
+.car-title {
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+}
+
+.car-section {
+    background: none;
+    margin-bottom: 100px;
+}
+
+.car-half {
+    width: 50%;
+    display: inline-block;
+}
+
+.car-pics {
+    width: 100%;
+    padding: 5%;
+    padding-right: 15%;
+}
+
+.car-text,
+.car-text-title {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.car-text-title {
+    color: yellow;
+    font-weight: 700;
+}

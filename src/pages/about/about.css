@@ -1,12 +1,12 @@
 .body2 {
-    background-color: rgb(55, 53, 53);
+    background-color: black;
     color: white;
     font-size: larger;
     height: 1255px;
 }
 
 .background2 {
-    opacity: 0.1;
+    opacity: 0.15;
     position: absolute;
     width: 100%;
     height: auto;
