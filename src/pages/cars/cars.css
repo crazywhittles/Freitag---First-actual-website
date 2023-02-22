@@ -26,11 +26,11 @@
     width: 100%;
     object-fit: cover;
     z-index: -1;
-    transform: translateZ(-40px) scale(5.5);
+    transform: translateZ(-40px) scale(5.2);
 }
 
 .car-background2 {
-    top: 550vh;
+    top: 520vh;
 }
 
 .car-title {
@@ -41,6 +41,11 @@
 .car-section {
     background: none;
     margin-bottom: 100px;
+}
+
+.car-section2 {
+    background-color: rgb(33, 31, 31);
+    margin-bottom: 0;
 }
 
 .car-half {

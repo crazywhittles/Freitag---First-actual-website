@@ -116,6 +116,54 @@ function cars() {
                     </img>
                 </div>
             </section>
+            <section className='car-section'>
+                <div className='car-half'>
+                    <img
+                        className='car-pics'
+                        src="https://cdn.discordapp.com/attachments/810186625585774593/1077534783351038013/20230220_135204.jpg"
+                        alt="cover">
+                    </img>
+                    <img
+                        className='car-pics'
+                        src="https://cdn.discordapp.com/attachments/810186625585774593/1077534765466525737/20230220_135143.jpg"
+                        alt="cover">
+                    </img>
+                </div>
+                <div className='car-half'>
+                    <p className='car-text-title'>
+                        Car 4 - 2008 Mazda 6 2.5 Sport
+                    </p>
+                    <p className='car-text'>
+                        For some reason I only buy cars from 2008... anyway, this
+                        is the first proper car I have owned and so far I love it.
+                        Super comfortable, lots of space and modern features.
+                    </p>
+                    <p className='car-text'>
+                        It was quite cheap too, only 3.5k so this is amazing
+                        value for money especially since you get so many modern
+                        features. Although this one has kinda crap bodywork LOL!
+                        So yeah that's all my cars so far... hopefully this one
+                        lasts longer than 1 year.
+                    </p>
+                </div>
+            </section>
+            <section className='car-section2'>
+                <div className='car-half'>
+                    <p className='car-text-title'>
+                        Car 9 - 2009 Audi RS4 Avant
+                    </p>
+                    <p className='car-text'>
+                        jk
+                    </p>
+                </div>
+                <div className='car-half'>
+                    <img
+                        className='car-pics'
+                        src="https://m.atcdn.co.uk/a/media/w800h600/69fb689dc3b34d038f50b1e2759ea845.jpg"
+                        alt="cover">
+                    </img>
+                </div>
+            </section>
         </div>
     );
 }

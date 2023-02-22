@@ -14,10 +14,10 @@ export default function header() {
                 </a>
                 <h2 class="header-title"><a href="/">Freitag</a></h2>
                 <h5 class="header-list"><a href="/aboutme">About Me</a></h5>
-                <h5 class="header-list"><a href="">My Channels</a></h5>
+                <h5 class="header-list"><a href="/channels">My Channels</a></h5>
                 <h5 class="header-list"><a href="/junkcars">Junk Cars</a></h5>
-                <h5 class="header-list"><a href="">People</a></h5>
-                <h5 class="header-list"><a href="">Contact</a></h5>
+                <h5 class="header-list"><a href="/people">People</a></h5>
+                <h5 class="header-list"><a href="/contact">Contact</a></h5>
             </header>
         </div>
     );
