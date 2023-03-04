@@ -24,10 +24,12 @@
     font-weight: 700;
     margin-left: 50%;
     margin-top: 0;
+    text-shadow: 2px 2px black;
 }
 
 .title-cr {
     color: yellow;
+    text-shadow: 2px 2px black;
 }
 
 .quote {

@@ -3,3 +3,106 @@
     height: 500vh;
     color: white;
 }
+
+.people-title {
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.people-title-text,
+.people-title-text2 {
+    font-size: 65px;
+    color: yellow;
+    margin-left: 25%;
+    text-shadow: 2px 2px black;
+}
+
+.people-title-text2 {
+    color: white;
+}
+
+.people-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    background-color: rgb(23, 23, 46);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.card {
+    width: 250px;
+    background: linear-gradient(90deg, #0b0037 1.18%, #590862 100%);
+    position: relative;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.card2 {
+    background: linear-gradient(90deg, #083700 1.18%, #08623b 100%);
+}
+
+.card3 {
+    background: linear-gradient(90deg, #370000 1.18%, #620808 100%);
+}
+
+.card4 {
+    background: linear-gradient(90deg, #372400 1.18%, #625a08 100%);
+}
+
+.card5 {
+    background: linear-gradient(90deg, #003725 1.18%, #0b7871 100%);
+}
+
+.card6 {
+    background: linear-gradient(90deg, #43013a 1.18%, #740456 100%);
+}
+
+.card span {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+.card .job {
+    font-weight: 500;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin-left: 6.5%;
+    margin-top: 20px;
+}
+
+.card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #e8e8e8;
+    color: #111111;
+    font-weight: 600;
+}
+
+.card button:hover {
+    background: #212121;
+    color: #ffffff;
+}
+
+.people-table {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 50px;
+}
