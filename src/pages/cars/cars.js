@@ -135,15 +135,21 @@ function cars() {
                     </p>
                     <p className='car-text'>
                         For some reason I only buy cars from 2008... anyway, this
-                        is the first proper car I have owned and so far I love it.
+                        is the first proper car I have owned and so far I like it.
                         Super comfortable, lots of space and modern features.
                     </p>
                     <p className='car-text'>
                         It was quite cheap too, only 3.5k so this is amazing
-                        value for money especially since you get so many modern
-                        features. Although this one has kinda crap bodywork LOL!
-                        So yeah that's all my cars so far... hopefully this one
-                        lasts longer than 1 year.
+                        value for money. Although this one has kinda crap bodywork LOL!
+                        So yeah that's all my cars so far...
+                    </p>
+                    <p>
+                    <b>2 months later...</b>
+                    </p>
+                    <p className='car-text'> 
+                        Yeah about that, this car is quite NPC and boring for me,
+                        probably gonna sell it after I drive through europe this
+                        summer.
                     </p>
                 </div>
             </section>
