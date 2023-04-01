@@ -46,20 +46,28 @@ function Person1() {
                     style={{
                         content: {
                             fontSize: '20px',
+                            fontWeight: 'bold',
                             padding: '3%',
                             marginLeft: '25%',
+                            marginTop: '10%',
                             width: '50%',
                             height: '50%',
-                            color: 'white',
-                            background: 'black'
+                            color: 'black',
+                            background: 'none'
                         }
                       }}
                 >
                     <h2>Ethics</h2>
-                    <p>where the nocco am i</p>
+                    <br />
+                    <p>
+                        Full time Rage Youtuber, and professional surfer (50 units
+                        per not second) Also owns a shit Oldsmobile. Jk he owns
+                        nothing because all the money goes to owning several M9
+                        Bayonets in CSGO.
+                    </p>
+                    <br />
                     <button onClick={closeModal}>Close</button>
                 </ReactModal>
-
             </div>
         </div>
     )

@@ -6,11 +6,6 @@ function App() {
   return (
     <div className='body'>
       <Header />
-      <img 
-      className='background'
-      src="https://cdn.mos.cms.futurecdn.net/xDUwiksyoEipsi4jrjWrnA.jpg"
-      alt="cover">
-      </img>
       <section className='home-section'>
           <h1>Welcome</h1>
           <p className='text'>

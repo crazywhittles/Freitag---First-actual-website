@@ -14,7 +14,7 @@ function people() {
             <Header />
             <div>
                 <div className='people-title'>
-                    <p className='people-title-text'>
+                    <p className='people-title-text people-title-top'>
                         My best
                     </p>
                     <p className='people-title-text2'>

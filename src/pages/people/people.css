@@ -1,12 +1,16 @@
 .people-body {
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(30, 30, 37);
     height: 270vh;
     color: white;
+    margin-top: 110px;
 }
 
 .people-title {
     font-weight: 600;
-    margin-top: 100px;
+}
+
+.people-title-top {
+    padding-top: 100px;
 }
 
 .people-title-text,
