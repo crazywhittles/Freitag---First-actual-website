@@ -1,0 +1,42 @@
+.channel-body {
+    background-color: rgb(30, 30, 37);
+    height: 260vh;
+    color: white;
+    margin-top: 110px;
+}
+
+.channel-title {
+    margin-left: 10%;
+    padding-top: 10%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.channel-title2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.channel-text {
+    font-size: 24px;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.channel-half {
+    margin-top: 40px;
+    width: 40%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.channel-pic {
+    width: 70%;
+    margin: 2% 0% 0% 15%
+}
+
+.channel-text2 {
+    font-size: 20px;
+    margin-left: 20%;
+}

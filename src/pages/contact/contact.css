@@ -1,0 +1,18 @@
+.contact-body {
+    background-color: rgb(30, 30, 37);
+    height: 603.5px;
+    color: white;
+    margin-top: 110px;
+}
+
+.contact-title {
+    margin-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 40px;
+}
+
+.contact-link {
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 20px;
+}
