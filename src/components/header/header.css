@@ -1,10 +1,10 @@
 .logo {
-    width: 100px;
-    margin-left: 10px;
+    width: 95px;
+    margin-left: 20px;
 }
 
 .header-title {
-    font-size: 35px;
+    font-size: 30px;
     margin-right: auto;
     margin-left: 30px;
 }
@@ -14,9 +14,9 @@
 }
 
 .header-list {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .header-list:hover {
@@ -38,7 +38,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    min-height: 70px;
+    height: 100px;
     background: linear-gradient(90deg, #080027 1.18%, #280747 100%);
     color: white;
     padding: 10px;
