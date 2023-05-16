@@ -26,8 +26,8 @@
 }
 
 .people-container {
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 100px;
     background-color: rgb(23, 23, 46);
     border: 2px solid black;
@@ -38,7 +38,7 @@
     width: 250px;
     background: linear-gradient(90deg, #0b0037 1.18%, #590862 100%);
     position: relative;
-    margin-left: 20%;
+    margin-left: 16%;
     margin-top: 50px;
     padding: 20px;
 }
